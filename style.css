@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hwb(215 84% 6%);
+    background-color: hsl(212, 45%, 89%);
     width: 100%;
 }
 
@@ -43,15 +43,17 @@ body{
 .paragraph .title{
     font-size: 1.5rem;
     margin: 15px 0 15px 0;
+    color: hsl(218, 44%, 22%);
 }
 
 .paragraph .subtitle{
     font-size: 15px;
     padding: 0 1rem;
+    color: hsl(220, 15%, 55%);
 }
 
 @media screen and (max-width: 375px){
-   .container{
-    padding: 0 1.3rem;
+   .container-card{
+    margin: 0 1.3rem;
    }
 }
