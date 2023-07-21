@@ -17,6 +17,7 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hwb(215 84% 6%);
+    width: 100%;
 }
 
 .container-card{
@@ -47,4 +48,10 @@ body{
 .paragraph .subtitle{
     font-size: 15px;
     padding: 0 1rem;
+}
+
+@media screen and (max-width: 375px){
+   .container{
+    padding: 0 1.3rem;
+   }
 }
